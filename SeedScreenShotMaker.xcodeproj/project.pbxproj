@@ -12,6 +12,10 @@
 		9AF21CC91D9C07D900767D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF21CC71D9C07D900767D20 /* Main.storyboard */; };
 		9AF21CCB1D9C07D900767D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF21CCA1D9C07D900767D20 /* Assets.xcassets */; };
 		9AF21CCE1D9C07D900767D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF21CCC1D9C07D900767D20 /* LaunchScreen.storyboard */; };
+		9AF21CDA1D9C824500767D20 /* Apple iPhone 6s Gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF21CD61D9C824500767D20 /* Apple iPhone 6s Gold.png */; };
+		9AF21CDB1D9C824500767D20 /* Apple iPhone 6s Rose Gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF21CD71D9C824500767D20 /* Apple iPhone 6s Rose Gold.png */; };
+		9AF21CDC1D9C824500767D20 /* Apple iPhone 6s Silver.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF21CD81D9C824500767D20 /* Apple iPhone 6s Silver.png */; };
+		9AF21CDD1D9C824500767D20 /* Apple iPhone 6s Space Gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF21CD91D9C824500767D20 /* Apple iPhone 6s Space Gray.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9AF21CCA1D9C07D900767D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AF21CCD1D9C07D900767D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AF21CCF1D9C07D900767D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF21CD61D9C824500767D20 /* Apple iPhone 6s Gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple iPhone 6s Gold.png"; sourceTree = "<group>"; };
+		9AF21CD71D9C824500767D20 /* Apple iPhone 6s Rose Gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple iPhone 6s Rose Gold.png"; sourceTree = "<group>"; };
+		9AF21CD81D9C824500767D20 /* Apple iPhone 6s Silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple iPhone 6s Silver.png"; sourceTree = "<group>"; };
+		9AF21CD91D9C824500767D20 /* Apple iPhone 6s Space Gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple iPhone 6s Space Gray.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		9AF21CC21D9C07D900767D20 /* SeedScreenShotMaker */ = {
 			isa = PBXGroup;
 			children = (
+				9AF21CD51D9C821800767D20 /* Devices */,
 				9AF21CC31D9C07D900767D20 /* AppDelegate.swift */,
 				9AF21CC51D9C07D900767D20 /* ViewController.swift */,
 				9AF21CC71D9C07D900767D20 /* Main.storyboard */,
@@ -62,6 +71,17 @@
 				9AF21CCF1D9C07D900767D20 /* Info.plist */,
 			);
 			path = SeedScreenShotMaker;
+			sourceTree = "<group>";
+		};
+		9AF21CD51D9C821800767D20 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				9AF21CD61D9C824500767D20 /* Apple iPhone 6s Gold.png */,
+				9AF21CD71D9C824500767D20 /* Apple iPhone 6s Rose Gold.png */,
+				9AF21CD81D9C824500767D20 /* Apple iPhone 6s Silver.png */,
+				9AF21CD91D9C824500767D20 /* Apple iPhone 6s Space Gray.png */,
+			);
+			name = Devices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +144,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF21CDC1D9C824500767D20 /* Apple iPhone 6s Silver.png in Resources */,
+				9AF21CDB1D9C824500767D20 /* Apple iPhone 6s Rose Gold.png in Resources */,
 				9AF21CCE1D9C07D900767D20 /* LaunchScreen.storyboard in Resources */,
 				9AF21CCB1D9C07D900767D20 /* Assets.xcassets in Resources */,
 				9AF21CC91D9C07D900767D20 /* Main.storyboard in Resources */,
+				9AF21CDD1D9C824500767D20 /* Apple iPhone 6s Space Gray.png in Resources */,
+				9AF21CDA1D9C824500767D20 /* Apple iPhone 6s Gold.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				9AF21CD41D9C07D900767D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
